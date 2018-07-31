@@ -20,12 +20,10 @@ Procederemos a la instalacion y configuracion de Hadoop en la maquina virtual de
 
 Entendiendo mas a fondo se crea como root un directorio, se da permisos al usuario hadoop para su uso y se sale de root. Ahora descomprimimos el zip en el /opt:
 
-    ```
     - cd /opt/hadoop
     - tar xvf /home/hadoop/Descargas/hadoop-X.X.X.tar.gz
     - mv hadoop-X.X.X/* .
     - rmdir hadoop-X.X.X
-    ```
 
 Con esto estaria la instalacion de hadoop propiamente dicho.
 
