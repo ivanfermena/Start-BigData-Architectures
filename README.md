@@ -16,7 +16,7 @@ Este repositorio no tiene un final definido y se ira aumnetando segun se vayan p
 Debido a la reletizacion de hacer los cursos y el repositorio documentado al mismo tiempo se ha descartado realizarlo en otro idioma. Dejando esa accion para un futuro cuando haya una base solida.
 
 ## Autor
-Este repositorio esta desarrollado por [Ivan Fermana](https://github.com/ivanfermena) con [twitter](https://twitter.com/ivanf3rmena) y [Linkedin](https://www.linkedin.com/in/ivanfermena/).
+Este repositorio esta desarrollado por [Ivan Fermena](https://github.com/ivanfermena) con [twitter](https://twitter.com/ivanf3rmena) y [Linkedin](https://www.linkedin.com/in/ivanfermena/).
 
 Si se localizan erratas, se quiere contribuir o cualquier duda presente, no dudeis en contactarme por las redes antes descritas.
 
