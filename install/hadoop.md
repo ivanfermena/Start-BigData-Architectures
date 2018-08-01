@@ -29,38 +29,38 @@ Con esto estaria la instalacion de hadoop propiamente dicho.
 
 ### Instalar JDK
 
-!(JDK)[http://somebooks.es/wp-content/uploads/2017/06/Instalar-JDK-en-Windows-10-025.jpg]
+![JDK](http://somebooks.es/wp-content/uploads/2017/06/Instalar-JDK-en-Windows-10-025.jpg)
 
 Antes de nada comporbamos que version de java tenemos instalada, esto se puede hacer abriendo un terminal y lanzando uno de los dos comandos siguiente:
 
 Para pocos detalles:
-```
+
     $ java -version 
-```
+
 
 Para mas detalle:
-```
+
     $ alternatives --config java
-```
+
 
 Una vez lanzado esto si no tenemos la version "1.8" de java, necesitamos instalarla. Y el JDK para poder compilar determinadas funciones de las practicas siguientes. Para instalar el JDK vamos a la [pagina de Oracle de java](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html), seleccionamos la version "Java SE Development Kit 8u73" o la primera que se encuentre. 
 
-Tras eso hay dos opciones para linux: 
+Tras eso hay dos opciones para linux:
+
     - XXXX...XXX.rpm -> La extension que usaremos nosotros debido a la mayor facilidad de instalacion al estar en CentOS.
     - XXXX...XXX.tar.gz -> Version mas global de instalacion (Si se escoge esta hay que seguir los mismos paso que cuando se ha instalado Hadoop).
 
 Como root lanzamos los siguientes comandos (Adaptado a la version que se descargue en el momento):
 
-    ```
+    
     $ su - root
     $ rpm -ivh jdk-8uXX-linux-x64.rpm 
     $ exit
-    ```
 
 Si volvemos a lanzar el comando "java -vesion" vemos que seguimos teniendo la version 1.7 seleccionada, por ello se tiene que cambiar con lso siguientes comandos:
 
-    ```
+    
     $ alternatives --config java
     $ *
-    ```
-* Seleccionando la version que acabamos de instalar.
+    
+*Seleccionando la version que acabamos de instalar.
