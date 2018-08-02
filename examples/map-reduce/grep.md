@@ -49,21 +49,27 @@ Nos debe aparecer el numero de veces que aparece una determinada palabra con los
 ### Salida
 
 9	kms.acl.
+
 2	kms.keytab
+
 1	kms.keystore
+
 1	kms.key.provider.uri
+
 1	kms.current.key.cache.timeout.ms
+
 1	kms.cache.timeout.ms
+
 1	kms.cache.enable
+
 1	kms.authentication.type
+
 1	kms.authentication.signer.secret.provider.zookeeper.path
+
 1	kms.keystore.password
+
 1	kms.authentication.signer.secret.provider.zookeeper.kerberos.keytab
+
 1	kms.authentication.signer.secret.provider.zookeeper.connection.string
-1	kms.authentication.signer.secret.provider.zookeeper.auth.type
-1	kms.authentication.signer.secret.provider
-1	kms.authentication.kerberos.principal
-1	kms.authentication.kerberos.name.rules
-1	kms.authentication.kerberos.keytab
-1	kms.audit.aggregation.window.ms
-1	kms.authentication.signer.secret.provider.zookeeper.kerberos.principa
+
+....
