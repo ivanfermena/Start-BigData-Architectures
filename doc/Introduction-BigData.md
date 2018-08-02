@@ -1,6 +1,6 @@
 ## Introduccion al BigData
 
-###Que es el Big Data?
+### Que es el Big Data?
 Es una convergencia de enormes cantidades de datos estructurados (Bases de datos relacionales) y no estructurados (twitter, blogs, webs, sensores...)
 
 Se generan aproximadamente 22574 GB de datos al minuto.
