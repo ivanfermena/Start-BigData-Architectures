@@ -24,3 +24,25 @@ Tras guardar el archivo, tenemos que lanzar estos comandos y si no sale ningun e
 
     $ . ./.bashrc
     $ hadoop version
+
+### Configuracion de la red
+A continuacion necesitamos configurar la red para poder lanzar ejemplo o programas en nuestro nodo1 de hadoop. Si no se hace esta configuracion la red para hacer trabajos distribuidos no se puede localizar.
+
+Comprobamos que efectivamente no encuentra la red con:
+
+    $ ping nodo1
+
+Si devuelve señal no habria que hacer nada, si muestra el mensaje: "ping: unknown host nodo1" hay que hacer los siguiente:
+
+- Iniciamos como root, lanzamos ifconfig para obtener la ip de eth0 (si se ha seguido todo sera 10.0.2.15), se copia esa ip y se abre el hosts con gedit:
+
+    $ su - root
+    $ ifconfig
+    $ gedit /etc/hosts
+
+- Se inserta al final del archivo la siguiente lineay se guarda (cambiar por tu ip si es diferente):
+
+    10.0.2.15 nodo1
+
+Finalmente lanzamos otra vez ifconfig y se comprueba si devuelve señal.
+    
