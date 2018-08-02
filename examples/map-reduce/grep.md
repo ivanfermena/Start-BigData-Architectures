@@ -1,4 +1,4 @@
-## Ejemplo de map reduce - Grep
+## Ejemplo sencillo MapReduce - Grep
 
 ![Map reduce](https://i.stack.imgur.com/199Q1.png)
 
