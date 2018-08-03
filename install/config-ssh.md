@@ -6,6 +6,7 @@ Para ello se tiene que tener una conexion de ssh entre mestro-exclavo para que e
 
 ### Pasos a realizar:
 * Creamos las claves publicas y privadas:
+
     $ ssh-keygen 
 
     Se da enter en las peticiones que se requieren(no insertando mas proteccion), si se prefiere se puede insertar pero no es necesario en un cluster virtual.
