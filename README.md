@@ -3,7 +3,7 @@
 ![Big Data](http://cdn2.itpro.co.uk/sites/itpro/files/2017/02/bigstock_big_data.png)
 
 ## Descripcion 
-Repositorio que muestra el comienzo y el aprendizage en las arquitecturas Big Data. El contenido de este repositorio se ha obtenido a partir del curso de [Udemy-Montar un cluster Hadoop](https://www.udemy.com/monta-un-cluster-hadoop-big-data-desde-cero/), curso de verano en la universidad complutense de Madrid llamado [Big and Open Data.Análisis y programación con R y Python](https://www.ucm.es/escuelacomplutense/b04) y conocimientos propios al ser estudiante de ingenieria del software.
+Repositorio que muestra el comienzo y el aprendizaje en las arquitecturas Big Data. El contenido de este repositorio se ha obtenido a partir del curso de [Udemy-Montar un cluster Hadoop](https://www.udemy.com/monta-un-cluster-hadoop-big-data-desde-cero/), curso de verano en la universidad complutense de Madrid llamado [Big and Open Data.Análisis y programación con R y Python](https://www.ucm.es/escuelacomplutense/b04) y conocimientos propios al ser estudiante de ingenieria del software.
 
 Este repositorio no pretende ser un tutorial, si no mas bien un diario de trabajo donde reflejo los pasos que voy haciendo y datos interesantes que he aprendido. De este modo busco reflejar para futuros usos como hacer las practicas que quiero hacer.
 
