@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!--
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License. See accompanying LICENSE file.
+-->
+
+<!-- Put site-specific property overrides in this file.-->
+
+<configuration>
+	<property> <!-- Propiedad de sistema de formatos por defecto y gestionado por el nodo maestro-->
+		<name>fs.defaultFS</name>
+		<value>hdfs://nodo1:9000</value>
+	</property>
+</configuration>
+
+<!-- Explicacion:
+
+    La configuracion de nuestro claster se encuentra entre etiquetas <configure> y <property>
+    
+    - <name> : Dicta cual va a ser el sistema de ficheros que va a utilizar el cluster, en nuestro caso 
+        sera HDFS ya que es el que esta por defecto.
+    - <value> : Expresa donde esta el nodo maestro de nuestro cluster, en este caso sera el mismo nodos
+        que los nodos exclavos pero normalmente es "NAMENODE", el nombre comun de un nodo especificamente
+        actua como nodo maestro. Se usa el puerto 9000 pero podria ser utilizado cualquiero otro con permisos.
+
+ -->
