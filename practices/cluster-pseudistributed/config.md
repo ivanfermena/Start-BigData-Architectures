@@ -29,3 +29,23 @@ Una vez hecha toda la configuracion es muy importante que esta se plasme en el s
     $ hadoop namenode -format
 
 Con esto se genera el directorio "/datos/current/" en donde estan esos metadatos de nuestro sistema de HDFS.
+
+### Arrancar HDFS en la maquina
+
+Una vez geenrados todos los metadatos necesarios para el inicio del uso de la seccion de datos de HDFS, es necesario arrancar el sistema. Para ello se tiene que lanzar el siguiente comando:
+
+    $ ./opt/hadoop/sbin/start-dfs.sh 
+
+Acordarse que el directorio sbin contenia varios ejecutable para controlar el ciclo de vida de las diferentes partes que componen hadoop (Aceptamos todo con "yes" si es necesario).
+
+Para comprobar el correcto funcionamiento podemos ver los procesos creados con los comandos (ordenados de menos a mayor detalle):
+
+    $ jps
+    $ jps -l
+    $ ps -ef | grep java
+
+Otra manera es abriendo el navegador y lanzando el siguiente enlace:
+
+    http://localhost:50070
+
+Si no funciona ya que tenemos la version 3 instalada en hay que pone el puerto: 9870
