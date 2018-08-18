@@ -26,6 +26,24 @@ Inserccion de fichero prueba.txt en el sistema de ficheros. Para hacer la practi
 
 Se puede comporbar su exsitencia con el comando **ls** indicado abajo o desde el navegador lanzando el enlace [localhost:50070](localhost:50070).
 
+### Practica 2
+
+En este caso lo que haremos es usar un archivo mucho mas grande y asi que use mas bloques de nuestro sistema de ficheros. Para eso usaremos el archivo .zip que se encuentra en el mismo directorio de este documento llamado: "access-log.gz".
+
+Lo primero que hacemos es descargarlo y descomprimirlo. Por comandos seria: 
+
+    $ gunzip access_log.gz
+
+Una vez descomprimido lanzaremos el mismo comando que antes para insertarlo en nuestro sistema de ficheros:
+
+    $ hdfs dfs -put /home/hadoop/Descargas/access_log /temporal/access_log
+
+Cambiar el path del archivo en donde lo hayais descomprimido.
+
+Un vez hecho solo queda comprobar que al ser demasiado grande y debido a que hdfs separa en bloques de **128MB**, crea 4 bloques. Accedemos al enlace [localhost:50070](localhost:50070) "en version 2" y en Browse Directory buscamos el archivo, si pinchamos en este podemos ir seleccionando los diferentes bloques que hay, son el size y el ID de bloque.
+
+![Bloques hdfs](https://github.com/ivanfermena/Start-BigData-Architectures/blob/master/img/blocks-dfs.png)
+
 ### Comandos utiles
 
 * Comando para ver si hay archivos en el directorio indicado:
@@ -36,4 +54,15 @@ Se puede comporbar su exsitencia con el comando **ls** indicado abajo o desde el
 
     $ jps
 
+* Comando para crear un directorio en nuestro sistema de ficheros:
 
+    $ hdfs dfs -mkdir temporal
+
+* Borrar ficheros del sistema de ficheros:
+
+    $ hdfs dfs -rm /temporal/prueba.txt
+
+Hay muchos comandos y para muchisimas utilidades con archivos, si se quiere ver una lista de todos ellos se puede lanzar cualquiera de estos dos comandos:
+
+    $ hdfs
+    $ hdfs dfs
