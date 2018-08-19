@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!--
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License. See accompanying LICENSE file.
+-->
+<configuration>
+
+<!-- Site specific YARN configuration properties -->
+
+<!--
+	Primero dictamos donde esta el gestor de recursos, es decir, quien es
+	el maestro que va grestionar los recursos de nuestro cluster.
+-->
+	<property>
+		<name>yarn.resourcemanager.hostname</name>
+		<value>nodo1</value>
+	</property>
+
+<!--
+	Ahora dictamos cuales son las clases que van a gestionar el YARN,
+	cuando hablamos de clases tratamos .class, por tanto, codigo que
+	dictara el comportamiento de los procesos.
+
+	Por ejemplo, le dictamos de donde va obtener el codigo que realizara
+	el proceso de map-reduce
+-->
+
+	<property>
+		<name>yarn.nodemanager.aux-services</name>
+		<value>mapreduce_shuffle</value>
+	</property>
+
+	<property>
+		<name>yarn.nodemanager.aux-services.mapreduce_shuffle.class</name>
+		<value>org.apache.hadoop.mapred.ShuffleHandler</value>
+	</property>
+	
+</configuration>
