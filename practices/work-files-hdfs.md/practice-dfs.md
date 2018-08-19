@@ -66,3 +66,10 @@ Hay muchos comandos y para muchisimas utilidades con archivos, si se quiere ver 
 
     $ hdfs
     $ hdfs dfs
+
+* Si aparece un WARNING cada vez que se lanza un comando con hdfs dictando que faltan librerias, se puede exportar las siguientes librerias:
+
+    $ export HADOOP_HOME_WARN_SUPPRESS=1
+    $ export HADOOP_ROOT_LOGGER="WARN,DRFA"
+
+Con esto no saldra mas el aviso en cada comando.
