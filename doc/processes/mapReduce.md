@@ -4,7 +4,7 @@
 
 Map Reduce es un proceso de programacion que se centra en la ejecucion paralela y distribuida, a traves de varios nodos de un cluster. Usado para grandes cantidades de datos en ordena de terabytes y petabytes.
 
-El objetivo de Map Reduce es trabajar de manera simple, robusta, rapida, resistente a fallos y escalable de trabajar con esa elevada cantidad de datos. 
+El objetivo de Map Reduce es trabajar de manera simple, robusta, rapida, resistente a fallos y escalable de trabajar con esa elevada cantidad de datos.
 
  ### Funcionamiento
 
