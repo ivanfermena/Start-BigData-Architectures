@@ -1,6 +1,6 @@
 ## Introduccion a Map Reduce
 
-![MapReduce](https://www.google.es/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiWtejCxPvcAhUGRBoKHUswDjsQjRx6BAgBEAU&url=http%3A%2F%2Ferrequeerre.es%2Fmapreduce-y-hadoop&psig=AOvVaw3cLSdqGPBsFL-CANDvRSff&ust=1534851204922998)
+![MapReduce](https://4zy7s42hws72i51dv3513vnm-wpengine.netdna-ssl.com/wp-content/uploads/2017/07/hadoop-mapreduce-big.png)
 
 Map Reduce es un proceso de programacion que se centra en la ejecucion paralela y distribuida, a traves de varios nodos de un cluster. Usado para grandes cantidades de datos en ordena de terabytes y petabytes.
 
