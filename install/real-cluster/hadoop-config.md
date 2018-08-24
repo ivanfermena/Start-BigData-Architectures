@@ -49,3 +49,7 @@ Antes de arrancar el cluster hadoop lo que hay que hacer es formatear nuestro na
     $ start-yarn.sh
 
 Se puede ver con el comando jps como arranca el "namenode" en el maestro y los "datanode" en los exclavos. Igual pasa con los nodos de los procesos.
+
+Arrancamos cambien el history como hicimos con las practicas de un unico nodo, asi tenemos informacion de procesos muy util.
+
+    $ mr-jobhistory-daemon.sh start historyserver
