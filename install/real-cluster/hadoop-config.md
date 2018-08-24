@@ -33,3 +33,19 @@ Por ultimo, lo que se hace es copiar el archivo "hdfs-site.xml" al resto de nodo
 
     $ scp hdfs-site.xml nodo2:/opt/hadoop/etc/hadoop/
     $ scp hdfs-site.xml nodo3:/opt/hadoop/etc/hadoop/
+
+Ademas hay que desactivar el cortafuegos en todos los nodos, esto se hace con los siguientes pasos:
+
+    Sistema (menu superior) -> administracion -> cortafuegos -> Descativar -> Aplicar
+
+En una situacion real se habilitaria el puerto en el cortafuegos, no se desactivaria entero.
+
+## Arancar hadoop
+
+Antes de arrancar el cluster hadoop lo que hay que hacer es formatear nuestro namenode, si no se hace este paso saldra un error al arrancar el dfs:
+
+    $ hdfs namenode -format
+    $ start-dfs.sh
+    $ start-yarn.sh
+
+Se puede ver con el comando jps como arranca el "namenode" en el maestro y los "datanode" en los exclavos. Igual pasa con los nodos de los procesos.
