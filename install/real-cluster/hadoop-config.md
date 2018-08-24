@@ -26,8 +26,8 @@ Ahora por la misma razon, en el nodo1 no se pueden tener datos ya que va a ser e
 
 A continuacion vamos a configurar los archivos de hadoop portando la configuracion que teniamos de 1 nodo exclavo a dos. Aqui se dictara los archivos que se modifician, donde se encuntran y en el directorio estara el archivo con la modificacion. Asi solo se tiene que copiar y pegar o compararar con el existente:
 
-    * **hdfs-site.xml** -> Se ha cambiado la etiqueda de numero de nodos exclavos de 1 a 2.
-    * **slaves** -> Quitamos el "localhost" e insertamos el "nodo2" y "nodo3", en este archivo se dicta cuales de los nodos va a ser exclavo.
+* **hdfs-site.xml** -> Se ha cambiado la etiqueda de numero de nodos exclavos de 1 a 2.
+* **slaves** -> Quitamos el "localhost" e insertamos el "nodo2" y "nodo3", en este archivo se dicta cuales de los nodos va a ser exclavo.
 
 Por ultimo, lo que se hace es copiar el archivo "hdfs-site.xml" al resto de nodos:
 
