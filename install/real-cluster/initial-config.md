@@ -89,3 +89,7 @@ Tras esto se concatena cada uno de los authorized_keys con las nuevas claves pro
     $ cat id_rsa.pub >> authorized_keys
 
 Esto aunque simplificado, se haria del nodo1 -> nodo2 -> nodo3 y despues el obtenido con el nodo3 copiado al nodo1 y nodo2 para tener las claves de todos los nodos en la totalidad de nodos.
+
+PD: Si vemos que tenemos problemas de permisos en determinados modmentos con las conexiones ssh, lo que hay que hacer es poner el siguiente comando en todos los nodos de nuestra carpeta ".ssh":
+
+    $ chmod 0600 authorized_keys
