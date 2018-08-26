@@ -1,4 +1,6 @@
-# Comandos Yarn utiles para nuestros porcesos
+# Comandos Yarn utiles para nuestros procesos
+
+Como la mayoria de las aplicaciones se pueden gestionar 100% por comandos, en este caso no es diferente. Se pued ever toda la informacion de los nodos por linea de comando en vez de como se estaba haciendo, con el administrador web.
 
 ## Commnand "Application"
 
@@ -12,9 +14,10 @@ Comandos para gestionar las aplicaciones que se han ejecutado y se estan ejecuta
 
 Ver y gestionar informacion sobre los distintos contenedores que se han ejecutado en nuestras aplicaciones:
 
+* **yarn aplicationattempt -list $APP_NAME** -> Muestra toda la lista de contenedores que hay en una determinada aplicacion.
+* **yarn container -list $APP_NAME** -> Muestra informacion de los contenedores de una determinada aplicacion que este en curso. Te da la url de los logs de los contenedores determinados.
 
-
-## Container "Node"
+## Command "Node"
 
 Nos permite ver la informacion de los nodos con los que estamos trabajando:
 
