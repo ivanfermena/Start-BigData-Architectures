@@ -9,10 +9,7 @@ Para ello se tiene que tener una conexion de ssh entre mestro-exclavo para que e
 ### Pasos a realizar:
 * Creamos las claves publicas y privadas:
 
-<<<<<<< HEAD
-=======
     ```
->>>>>>> f57a51336696c7647a46c66c63bf08b3be995b20
     $ ssh-keygen 
     ```
 
