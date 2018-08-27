@@ -19,3 +19,13 @@ El planificador de procesos se separa en dos partes:
 ![Foto capacity scheduler](https://github.com/ivanfermena/Start-BigData-Architectures/blob/master/img/capacityscheduler.png)
 
 Puedes dividir en distintas colas o jerarquias nuestros procesos. Dictando que jerarquia o cola tiene mas prioridad (usando diferentes porcentajes de procesamiento). Siempre usando los recursos del padre. Si no se le dice nad ase usa el 100% del padre.
+
+Podemos ver la informacion de las diferentes colas de nuestro planificador, esto se hace con el siguiente comando:
+
+    $ mapred queue -list
+
+Si queremos una cola en particular con mas detalle:
+
+    $ mapred queue -info default -showJobs
+
+En donde "default" se pone el nombre de la cola a estudiar. 
