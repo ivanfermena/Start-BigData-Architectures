@@ -16,7 +16,7 @@ Este repositorio no tiene un final definido y se ira aumentando según se vayan 
 Debido a la reletización de hacer los cursos, el repositorio documentado y la investigacion personal se ha descartado realizarlo en otro idioma. Dejando esa acción para un futuro, cuando haya una base más solida.
 
 ## Autor
-Este repositorio esta desarrollado por [Ivan Fermena](https://github.com/ivanfermena) con [Twitter](https://twitter.com/ivanf3rmena) y [Linkedin](https://www.linkedin.com/in/ivanfermena/). Co-fundador de Scidata junto con [Alberto Pastor](https://github.com/albertopastormr).
+Este repositorio esta desarrollado enteramente por [Ivan Fermena](https://github.com/ivanfermena) con [Twitter](https://twitter.com/ivanf3rmena) y [Linkedin](https://www.linkedin.com/in/ivanfermena/). Co-fundador de la asociación/comunidad de Big Data y tegnologías emergentes llamada Scidata, creada junto a mi amigo [Alberto Pastor](https://github.com/albertopastormr).
 
 Si se localizan erratas, se quiere contribuir o existe cualquier duda presente, no dudeis en contactarme por las redes antes descritas.
 
