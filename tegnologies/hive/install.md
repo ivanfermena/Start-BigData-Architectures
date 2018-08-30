@@ -51,3 +51,14 @@ La instalacion de Hive es muy sencilla y parecida a Hadoop. A continuacion dicta
     export HADOOP_HOME=/opt/hadoop
     export HIVE_CONF_DIR=/opt/hadoop/hive/conf
     ```
+
+5.  **Configuracion de HDFS para Hive**
+
+    Para que funcione correctamente Hive, se tienen que crear varios directorios en HDFS. Estos directorios tienen que tener esta estructura exacta ya que si no falla el cluster con Hive.
+
+    ```
+    $ hdfs dfs -mkdir /tmp
+    $ hdfs dfs -chmod g+w /tmp
+    $ hdfs dfs -mkdir -p /user/hive/warehouse
+    $ hdfs dfs -chmod g+w /user/hive/warehouse
+    ``` 
